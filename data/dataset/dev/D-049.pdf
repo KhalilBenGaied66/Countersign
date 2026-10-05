@@ -1,0 +1,132 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+/Names 11 0 R
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1119
+>>
+stream
+GauHJhiHJN&:WfGR$Xi-.V*C[TDN_50I8bNd_r6\@:-*D[])fj+e79drl,8?5ca3CgZosc4._jYAj$&4$3YjcIHDik]n"id"j0*3JQeoS@LcWO^'m\nq@<&2Zn.Qr5+"7E(DQ/t6#4ES0l:dhRblEthp\?MRh=,U))0gP.J5*F&oJ?XXFS"enJT8lD=A-WH4/=MCud:S4O58_,3@qE9iA%b[Ou.?W)Y$W3?YGM(Bj,h@;'.b$lrD2`,(7okeM)Q8FSH@5VPuY"sOKtJoD3O09S:(_N[D'A8ijD?n@Tm5K.s/H&uqTocE79/\`_CkM"oc3Vn8>\_q01-H[>?P`a4:a,Z4%R"*jk^NOjb8K`9Dm^q6T*Sh?Sb6W08hpYb0q$R6e(I"G\+<$mL8)N[!YY3jk(/DZ$q;?QWprq9Vq>Pm?*lep(j*A]j!PNE'rPAEgDtLsf!obARU2"G2Dp.]Ja[7;2>/<$!"@H#(7*+3jq[*uo2d"&6cqMtY3L$#(g7.B./9`%UdVQ=P&_o[B4p2IQ0UaOKObVL.\eBf`4fAku<b`/oqIsK()Fk=m@UE*EWcu[(GO334n:-`ffa6!A%oFId3-tD/I`.7\,r(`5bX=D;ANn6\N^SCtR>E!KO(BS9ri%C<6<.-/.&Ge;WbpQ8m$4.mbu!Ri/]/d1aiH4+$u'.g+QmJtoaGd2k;.G[`gfH8,+-7fG8AqP-8(>QF[#<5#^HSSaqnL+_1jmM/96;!A@CH$YJoet\k;/k/B_[\kJ%oCgR41rATa":^1Z*Tn&\4YnP?s7CY:m//GB4HUS'T8K_bgaJ<ZE(+^]>UPfQ1VWbUI+K`+%Xn@?5T<jL,#"DaDaLUsB>oFn-d3/T[RbrsL`^<SKU'B0/pVQ&m3AMFEpT31$_3-'D=Jk(Y.[c?9H]+;r\3=CHMe+E+inaZ-3d#RCR']f@9\LST/d:([\BY"G_9[Q3gc7\>ML0(=df8?tNAA-Edh(^VdG0$VhP+/2n"23:8aK;\tNt'Cqi@D"d+pmIUc+g?2N?1;/\n^_D=K/Ukb^3%]8m'92]-_]'1K`8736$J-pHNe%<h*B2ga8=*Qf"f+?89(SBQT+EACVeG[@s$*+"T,@(K)OVao~>
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Author (Int\351rim Alpes Travail Temporaire SAS)
+/CreationDate (D\07220000101000000\05300\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220000101000000\05300\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (FACTURE 0000352)
+/Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Type /EmbeddedFile
+/Length 3790
+>>
+stream
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"><rsm:ExchangedDocumentContext><ram:GuidelineSpecifiedDocumentContextParameter><ram:ID>urn:cen.eu:en16931:2017</ram:ID></ram:GuidelineSpecifiedDocumentContextParameter></rsm:ExchangedDocumentContext><rsm:ExchangedDocument><ram:ID>0000352</ram:ID><ram:TypeCode>380</ram:TypeCode><ram:IssueDateTime><udt:DateTimeString format="102">20260113</udt:DateTimeString></ram:IssueDateTime></rsm:ExchangedDocument><rsm:SupplyChainTradeTransaction><ram:IncludedSupplyChainTradeLineItem><ram:AssociatedDocumentLineDocument><ram:LineID>1</ram:LineID></ram:AssociatedDocumentLineDocument><ram:SpecifiedTradeProduct><ram:Name>Technicien de maintenance - semaine 12</ram:Name></ram:SpecifiedTradeProduct><ram:SpecifiedLineTradeAgreement><ram:NetPriceProductTradePrice><ram:ChargeAmount>36.03</ram:ChargeAmount></ram:NetPriceProductTradePrice></ram:SpecifiedLineTradeAgreement><ram:SpecifiedLineTradeDelivery><ram:BilledQuantity unitCode="C62">14.40</ram:BilledQuantity></ram:SpecifiedLineTradeDelivery><ram:SpecifiedLineTradeSettlement><ram:ApplicableTradeTax><ram:TypeCode>VAT</ram:TypeCode><ram:CategoryCode>S</ram:CategoryCode><ram:RateApplicablePercent>20</ram:RateApplicablePercent></ram:ApplicableTradeTax><ram:SpecifiedTradeSettlementLineMonetarySummation><ram:LineTotalAmount>518.83</ram:LineTotalAmount></ram:SpecifiedTradeSettlementLineMonetarySummation></ram:SpecifiedLineTradeSettlement></ram:IncludedSupplyChainTradeLineItem><ram:ApplicableHeaderTradeAgreement><ram:SellerTradeParty><ram:Name>Int√©rim Alpes Travail Temporaire SAS</ram:Name><ram:SpecifiedLegalOrganization><ram:ID schemeID="0002">32978592700099</ram:ID></ram:SpecifiedLegalOrganization><ram:PostalTradeAddress><ram:CountryID>FR</ram:CountryID></ram:PostalTradeAddress><ram:SpecifiedTaxRegistration><ram:ID schemeID="VA">FR85329785927</ram:ID></ram:SpecifiedTaxRegistration></ram:SellerTradeParty><ram:BuyerTradeParty><ram:Name>Orvane Industries SAS</ram:Name><ram:SpecifiedTaxRegistration><ram:ID schemeID="VA">FR33541062709</ram:ID></ram:SpecifiedTaxRegistration></ram:BuyerTradeParty></ram:ApplicableHeaderTradeAgreement><ram:ApplicableHeaderTradeDelivery /><ram:ApplicableHeaderTradeSettlement><ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode><ram:SpecifiedTradeSettlementPaymentMeans><ram:TypeCode>30</ram:TypeCode><ram:PayeePartyCreditorFinancialAccount><ram:IBANID>FR7644267904772669918109566</ram:IBANID></ram:PayeePartyCreditorFinancialAccount></ram:SpecifiedTradeSettlementPaymentMeans><ram:ApplicableTradeTax><ram:CalculatedAmount>98.58</ram:CalculatedAmount><ram:TypeCode>VAT</ram:TypeCode><ram:BasisAmount>492.89</ram:BasisAmount><ram:CategoryCode>S</ram:CategoryCode><ram:RateApplicablePercent>20</ram:RateApplicablePercent></ram:ApplicableTradeTax><ram:SpecifiedTradePaymentTerms><ram:DueDateDateTime><udt:DateTimeString format="102">20260212</udt:DateTimeString></ram:DueDateDateTime></ram:SpecifiedTradePaymentTerms><ram:SpecifiedTradeSettlementHeaderMonetarySummation><ram:LineTotalAmount>518.83</ram:LineTotalAmount><ram:ChargeTotalAmount>0.00</ram:ChargeTotalAmount><ram:AllowanceTotalAmount>25.94</ram:AllowanceTotalAmount><ram:TaxBasisTotalAmount>492.89</ram:TaxBasisTotalAmount><ram:TaxTotalAmount currencyID="EUR">98.58</ram:TaxTotalAmount><ram:GrandTotalAmount>591.47</ram:GrandTotalAmount><ram:DuePayableAmount>591.47</ram:DuePayableAmount></ram:SpecifiedTradeSettlementHeaderMonetarySummation></ram:ApplicableHeaderTradeSettlement></rsm:SupplyChainTradeTransaction></rsm:CrossIndustryInvoice>
+endstream
+endobj
+10 0 obj
+<<
+/Type /Filespec
+/F (factur\055x\056xml)
+/EF <<
+/F 9 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/EmbeddedFiles 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Names [ (factur\055x\056xml) 10 0 R ]
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000097 00000 n 
+0000000156 00000 n 
+0000000355 00000 n 
+0000001566 00000 n 
+0000001607 00000 n 
+0000001714 00000 n 
+0000001819 00000 n 
+0000002163 00000 n 
+0000006025 00000 n 
+0000006106 00000 n 
+0000006150 00000 n 
+trailer
+<<
+/Size 13
+/Root 1 0 R
+/Info 8 0 R
+/ID [ <f301f670e865327211fa9fb8dcaefd20> <f301f670e865327211fa9fb8dcaefd20> ]
+>>
+startxref
+6211
+%%EOF

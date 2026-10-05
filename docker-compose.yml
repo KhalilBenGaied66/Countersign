@@ -1,0 +1,46 @@
+# Two ways to run the application in a container.
+#
+#   docker compose --profile demo up --build
+#       No GPU, no model server: answers come from the recordings made during the
+#       evaluation, and sixty documents of the test split are queued at start.
+#
+#   docker compose --profile live up --build
+#       Uses the Ollama server of the host (http://localhost:11434), which must have
+#       the two models pulled. On Linux that server has to listen on the Docker bridge
+#       as well (OLLAMA_HOST=0.0.0.0), or the container cannot reach it.
+#
+# The console is at http://localhost:8000 in both cases.
+#
+# The port is published on the host's loopback only. Inside the container the server
+# listens on every interface, which it refuses to do without API keys unless told that
+# the port is not exposed: that is what COUNTERSIGN_ALLOW_OPEN says here. Publish the
+# port anywhere else and set COUNTERSIGN_API_KEYS instead.
+
+x-app: &app
+  build: .
+  ports:
+    - "127.0.0.1:8000:8000"
+  volumes:
+    - countersign-data:/data
+  restart: unless-stopped
+
+services:
+  demo:
+    <<: *app
+    profiles: ["demo"]
+    command: ["countersign", "demo", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      COUNTERSIGN_ALLOW_OPEN: "true"
+
+  live:
+    <<: *app
+    profiles: ["live"]
+    environment:
+      COUNTERSIGN_OLLAMA_URL: http://host.docker.internal:11434
+      COUNTERSIGN_API_KEYS: ${COUNTERSIGN_API_KEYS:-}
+      COUNTERSIGN_ALLOW_OPEN: ${COUNTERSIGN_ALLOW_OPEN:-true}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  countersign-data:

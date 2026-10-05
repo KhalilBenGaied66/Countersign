@@ -1,0 +1,10 @@
+{
+  "name": "Orvane Industries SAS",
+  "vat_id": "FR33541062709",
+  "siret": "54106270900046",
+  "ibans": [
+    "FR7625236336365333773868093"
+  ],
+  "po_pattern": "PO-20\\d{2}-\\d{5}",
+  "po_example": "PO-2026-00123"
+}

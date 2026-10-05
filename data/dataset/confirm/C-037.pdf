@@ -1,0 +1,132 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+/Names 11 0 R
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1085
+>>
+stream
+GauHJ9lm(!&A@C2oOY@(9#`[)VgJh@&6"KQL63tk?R?%=D"43X@*AB?klJ_+]?\Dr>M3$l%*\?jh:"Lt;'>Y/__nUuDE(l)'IX't#ARoVn-FEUphQQ@FCc$h1rHPS\H:#$pk"*F=q".7/Bq.#[cU7Ypmt7U-6nsh116tk;X.*:2-at9;ZZN'i#dOMU)`T`BD/Pe_K:]eZ#V\E6DhD%]\CM:ho],E?*W,i.2HGr4pF=9A=,MJ;%IY,.LXITBU0"lJu<LVD3C,rnDHc5kbmn`"C[N\k%=+o"g5nTWIKfu_M8!7U+RD;oanO:'=-j$`Uuk4LpqSWRXg-9%0<ek8K?m:d+/Qu)8'#L+ccR+H*Xj$r;lDo>m"M:`4TQ4=Yk4D7?\O+730YIDLFJ;?K*1f]cu#fFr$r=#FhiG;$ZPJ&414)S(M&Qp;+WZ`#LsN@t0pCN#P"@('/o(Tklb=o!Y^u7eE6"AH>((fGR5;S4GY%(!hZ8/N_@FD=]9(29,f"l$3"q<)m'lX`tWSTdih'#G3H*CIlkY2teDRf@u7^Tg(HT-"'o^047j$+cqbr8L0<;g@C&JE!b)&dtR#S[Ws1k)*:B3h)$ObQq^UooU#Tabu(VA/Gq)CH'lNgmt,n&Ye`6O<eFU?5,csX]1ZW$@Z%XB-Mh-gnPb"4C-03@_:!Ko.BkF%=]MZ74Ito#m49i%(c&BB0:.Vr5<bjO(Zo6jiGPFuUO@"Bfmph3^P<)1c3V)[((mt!V/:T5d?"t'hCD85%1puj)XJctGa+D:*NB=i!!QupLAp"Rr&19#lD!P$;)\dE"?s9-4Mjj8l<M55jBXEO=[8K&>pjXYUB]MH#eHsS)8_(%0H=]Z!odSf6oQMrL8d@"NfN[dd&,i2qqZoHY5E5\GsQcR45.kC8)ZjU&O#47J:^e#0IZ?BMPj&S&Q18DQPI9O`CI<I^H+^LeEAS4[Y+`4'5^-;G&!]43f+aYHZd/gd#%`>G4/:%e\'<bL?D$cT9()>:"elj\f'=::AjDF76-7n!V[#r;Nt)gH/!h3j0msR0uU3Q<o`iLii%lI2`[G'"OV=&?4NZDB7BnhnIK-.jSS~>
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Author (Transports Vallier \046 Fils SAS)
+/CreationDate (D\07220000101000000\05300\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220000101000000\05300\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (FACTURE F26050828)
+/Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Type /EmbeddedFile
+/Length 3789
+>>
+stream
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:CrossIndustryInvoice xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"><rsm:ExchangedDocumentContext><ram:GuidelineSpecifiedDocumentContextParameter><ram:ID>urn:cen.eu:en16931:2017</ram:ID></ram:GuidelineSpecifiedDocumentContextParameter></rsm:ExchangedDocumentContext><rsm:ExchangedDocument><ram:ID>F26050828</ram:ID><ram:TypeCode>380</ram:TypeCode><ram:IssueDateTime><udt:DateTimeString format="102">20260502</udt:DateTimeString></ram:IssueDateTime></rsm:ExchangedDocument><rsm:SupplyChainTradeTransaction><ram:IncludedSupplyChainTradeLineItem><ram:AssociatedDocumentLineDocument><ram:LineID>1</ram:LineID></ram:AssociatedDocumentLineDocument><ram:SpecifiedTradeProduct><ram:Name>Transport lot complet Lyon - Lille</ram:Name></ram:SpecifiedTradeProduct><ram:SpecifiedLineTradeAgreement><ram:NetPriceProductTradePrice><ram:ChargeAmount>1230.15</ram:ChargeAmount></ram:NetPriceProductTradePrice></ram:SpecifiedLineTradeAgreement><ram:SpecifiedLineTradeDelivery><ram:BilledQuantity unitCode="C62">1</ram:BilledQuantity></ram:SpecifiedLineTradeDelivery><ram:SpecifiedLineTradeSettlement><ram:ApplicableTradeTax><ram:TypeCode>VAT</ram:TypeCode><ram:CategoryCode>S</ram:CategoryCode><ram:RateApplicablePercent>20</ram:RateApplicablePercent></ram:ApplicableTradeTax><ram:SpecifiedTradeSettlementLineMonetarySummation><ram:LineTotalAmount>1230.15</ram:LineTotalAmount></ram:SpecifiedTradeSettlementLineMonetarySummation></ram:SpecifiedLineTradeSettlement></ram:IncludedSupplyChainTradeLineItem><ram:ApplicableHeaderTradeAgreement><ram:SellerTradeParty><ram:Name>Transports Vallier &amp; Fils SAS</ram:Name><ram:SpecifiedLegalOrganization><ram:ID schemeID="0002">72921872700075</ram:ID></ram:SpecifiedLegalOrganization><ram:PostalTradeAddress><ram:CountryID>FR</ram:CountryID></ram:PostalTradeAddress><ram:SpecifiedTaxRegistration><ram:ID schemeID="VA">FR61729218727</ram:ID></ram:SpecifiedTaxRegistration></ram:SellerTradeParty><ram:BuyerTradeParty><ram:Name>Orvane Industries SAS</ram:Name><ram:SpecifiedTaxRegistration><ram:ID schemeID="VA">FR33541062709</ram:ID></ram:SpecifiedTaxRegistration></ram:BuyerTradeParty></ram:ApplicableHeaderTradeAgreement><ram:ApplicableHeaderTradeDelivery /><ram:ApplicableHeaderTradeSettlement><ram:InvoiceCurrencyCode>EUR</ram:InvoiceCurrencyCode><ram:SpecifiedTradeSettlementPaymentMeans><ram:TypeCode>30</ram:TypeCode><ram:PayeePartyCreditorFinancialAccount><ram:IBANID>FR7608420341645027830130588</ram:IBANID></ram:PayeePartyCreditorFinancialAccount></ram:SpecifiedTradeSettlementPaymentMeans><ram:ApplicableTradeTax><ram:CalculatedAmount>246.03</ram:CalculatedAmount><ram:TypeCode>VAT</ram:TypeCode><ram:BasisAmount>1230.15</ram:BasisAmount><ram:CategoryCode>S</ram:CategoryCode><ram:RateApplicablePercent>20</ram:RateApplicablePercent></ram:ApplicableTradeTax><ram:SpecifiedTradePaymentTerms><ram:DueDateDateTime><udt:DateTimeString format="102">20260601</udt:DateTimeString></ram:DueDateDateTime></ram:SpecifiedTradePaymentTerms><ram:SpecifiedTradeSettlementHeaderMonetarySummation><ram:LineTotalAmount>1230.15</ram:LineTotalAmount><ram:ChargeTotalAmount>0.00</ram:ChargeTotalAmount><ram:AllowanceTotalAmount>0.00</ram:AllowanceTotalAmount><ram:TaxBasisTotalAmount>1230.15</ram:TaxBasisTotalAmount><ram:TaxTotalAmount currencyID="EUR">246.03</ram:TaxTotalAmount><ram:GrandTotalAmount>1476.18</ram:GrandTotalAmount><ram:DuePayableAmount>1476.18</ram:DuePayableAmount></ram:SpecifiedTradeSettlementHeaderMonetarySummation></ram:ApplicableHeaderTradeSettlement></rsm:SupplyChainTradeTransaction></rsm:CrossIndustryInvoice>
+endstream
+endobj
+10 0 obj
+<<
+/Type /Filespec
+/F (factur\055x\056xml)
+/EF <<
+/F 9 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/EmbeddedFiles 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Names [ (factur\055x\056xml) 10 0 R ]
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000097 00000 n 
+0000000156 00000 n 
+0000000355 00000 n 
+0000001532 00000 n 
+0000001573 00000 n 
+0000001680 00000 n 
+0000001785 00000 n 
+0000002124 00000 n 
+0000005985 00000 n 
+0000006066 00000 n 
+0000006110 00000 n 
+trailer
+<<
+/Size 13
+/Root 1 0 R
+/Info 8 0 R
+/ID [ <29d43ce61ea51d08a9bacbd715a4df38> <29d43ce61ea51d08a9bacbd715a4df38> ]
+>>
+startxref
+6171
+%%EOF

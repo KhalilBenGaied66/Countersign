@@ -1,0 +1,1248 @@
+[
+  {
+    "po_number": "PO-2026-00105",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "4120.02",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00109",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "14355.45",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00111",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "6972.85",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00114",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2436.09",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00115",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2716.45",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00121",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "4603.21",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00125",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "3374.60",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00132",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "1233.23",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00138",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1417.63",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00141",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "10350.61",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00146",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "813.68",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00147",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "221.33",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00153",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "3063.00",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00160",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "2443.92",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00165",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "4630.94",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00168",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "8217.56",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00181",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "1212.72",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00186",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "1139.12",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00193",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "2713.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00197",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "2380.70",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00202",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "29268.20",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00206",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "4043.50",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00208",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "965.61",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00214",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "3301.21",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00219",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "4595.18",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00223",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "5192.47",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-00227",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "10145.05",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10106",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "5595.58",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10110",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2244.36",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10114",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "2744.45",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10119",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "4141.94",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10126",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "3438.67",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10133",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "936.48",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10136",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "1268.25",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10139",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "1042.53",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10143",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "306.93",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10148",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "657.74",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10149",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "7768.55",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10152",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "2079.66",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10159",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "787.74",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10162",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1400.53",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10163",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "28.81",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10169",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "2135.27",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10174",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "8993.62",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10177",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "981.04",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10178",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "5641.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10179",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "201.86",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10184",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "3639.25",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10190",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2542.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10197",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "1462.60",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10200",
+    "vendor_id": "V-1002",
+    "currency": "EUR",
+    "amount_net": "165.84",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10203",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2524.24",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10204",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "1352.44",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10207",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "1829.23",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10211",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "1326.58",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10217",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4286.16",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10224",
+    "vendor_id": "V-1009",
+    "currency": "EUR",
+    "amount_net": "1926.00",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10227",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1971.87",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10228",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "33694.32",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10233",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "796.15",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10240",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "7934.94",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10247",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "29428.70",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10249",
+    "vendor_id": "V-1017",
+    "currency": "EUR",
+    "amount_net": "87.77",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10254",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "14168.27",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10257",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1261.89",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10265",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "764.40",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10267",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "15905.85",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10272",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "5268.98",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10274",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "11997.33",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10275",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "4587.29",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10279",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "391.74",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10283",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "32.00",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10285",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "570.71",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10286",
+    "vendor_id": "V-1013",
+    "currency": "EUR",
+    "amount_net": "15510.83",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10292",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4807.25",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10295",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "12606.59",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10298",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "1759.31",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10303",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "3600.71",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10310",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "13971.56",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10314",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4466.52",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10315",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "290.62",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10316",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "3395.66",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10323",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "26365.82",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10325",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "8326.10",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10330",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1085.40",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10334",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "680.55",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10341",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1477.25",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10346",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "10967.46",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10351",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "5326.90",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10357",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "477.73",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10359",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "147.07",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10366",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "33153.88",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10367",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "2724.78",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-10371",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4112.55",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20101",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "4873.89",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20103",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "1519.30",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20105",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "669.35",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20111",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1529.66",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20113",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "12619.53",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20120",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "3170.46",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20123",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "687.36",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20130",
+    "vendor_id": "V-1013",
+    "currency": "EUR",
+    "amount_net": "384.40",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20134",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "2800.20",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20139",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "963.45",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20143",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "14739.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20147",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "1322.53",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20154",
+    "vendor_id": "V-1022",
+    "currency": "EUR",
+    "amount_net": "148.48",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20158",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "12865.85",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20164",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4925.52",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20168",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "15299.66",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20169",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "9726.50",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20171",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "2123.91",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20175",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "11330.96",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20177",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "14443.45",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20183",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "11921.21",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20187",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "2548.01",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20193",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "5572.92",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20197",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "12034.39",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20203",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "1025.76",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20204",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1406.89",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20207",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1270.16",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20214",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "2538.81",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20221",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "929.66",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20228",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "2382.99",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20233",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "3409.70",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20236",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "2956.44",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20238",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1610.52",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20244",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "6271.86",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20246",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "3295.06",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20249",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1422.50",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20253",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "2352.78",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20255",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "2229.82",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20260",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "3035.03",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20266",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "2124.80",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20267",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "4310.44",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20272",
+    "vendor_id": "V-1002",
+    "currency": "EUR",
+    "amount_net": "66.11",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20274",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "182.93",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20276",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "353.58",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20283",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "9345.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20290",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "638.59",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20294",
+    "vendor_id": "V-1007",
+    "currency": "EUR",
+    "amount_net": "883.84",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20299",
+    "vendor_id": "V-1020",
+    "currency": "EUR",
+    "amount_net": "847.83",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20302",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "913.44",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20309",
+    "vendor_id": "V-1008",
+    "currency": "EUR",
+    "amount_net": "3910.71",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20310",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "5012.94",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20311",
+    "vendor_id": "V-1024",
+    "currency": "EUR",
+    "amount_net": "1123.58",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20320",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1305.23",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20323",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "324.10",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20329",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "3590.28",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20332",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "3176.98",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20337",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "1510.94",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20341",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "3622.15",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20348",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "995.40",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20353",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "38.71",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20360",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "237.78",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20364",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "525.31",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20365",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "10483.65",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20370",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "117.81",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20373",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "3294.54",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20378",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "14515.40",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20385",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "2708.55",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20388",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "14183.05",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20393",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "13029.30",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20398",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "6168.58",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20402",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "633.47",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20409",
+    "vendor_id": "V-1020",
+    "currency": "EUR",
+    "amount_net": "1036.09",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20413",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "703.51",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20420",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "608.17",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20423",
+    "vendor_id": "V-1004",
+    "currency": "EUR",
+    "amount_net": "2964.43",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20428",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "9323.98",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20432",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "436.31",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20438",
+    "vendor_id": "V-1016",
+    "currency": "EUR",
+    "amount_net": "12434.12",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20445",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "4513.62",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20447",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1077.12",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20448",
+    "vendor_id": "V-1011",
+    "currency": "USD",
+    "amount_net": "2187.19",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20449",
+    "vendor_id": "V-1019",
+    "currency": "EUR",
+    "amount_net": "1949.72",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20456",
+    "vendor_id": "V-1018",
+    "currency": "EUR",
+    "amount_net": "401.78",
+    "status": "open"
+  },
+  {
+    "po_number": "PO-2026-20461",
+    "vendor_id": "V-1001",
+    "currency": "EUR",
+    "amount_net": "1859.80",
+    "status": "open"
+  }
+]

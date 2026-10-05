@@ -1,0 +1,163 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: lint, types, tests (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          python-version: ${{ matrix.python }}
+          enable-cache: true
+      - name: Install
+        run: uv sync --frozen
+      - name: Lint
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - name: Types
+        run: uv run mypy
+      - name: Tests
+        run: uv run pytest --cov --cov-report=term-missing:skip-covered --cov-fail-under=90
+
+  evaluation:
+    name: evaluation gate (replayed, no GPU)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          python-version: "3.11"
+          enable-cache: true
+      - run: uv sync --frozen
+      # Every committed report is recomputed from the recorded model answers and must
+      # come out identical, and within the limits of evals/thresholds.json.
+      - name: Recompute the committed reports
+        run: uv run python -m countersign.eval.gate
+      - name: The dataset is the one the generator builds
+        run: |
+          uv run python -m countersign.datagen.build --out /tmp/rebuilt
+          diff -r data/reference /tmp/rebuilt/reference
+          for split in dev test confirm; do
+            diff data/dataset/$split/truth.jsonl /tmp/rebuilt/dataset/$split/truth.jsonl
+          done
+
+  postgres:
+    name: queue, API and command line on PostgreSQL
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: ci-only-not-a-secret
+          POSTGRES_DB: countersign
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      COUNTERSIGN_TEST_DATABASE_URL: postgresql+psycopg://postgres:ci-only-not-a-secret@localhost:5432/countersign
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+        with:
+          python-version: "3.11"
+          enable-cache: true
+      - run: uv sync --frozen --extra postgres
+      # The three test files that open a database. `--extra` again: `uv run` keeps the
+      # environment in step with the lock file, and must be told the driver belongs.
+      - name: Queue, storage, worker, API and command-line tests against PostgreSQL
+        run: uv run --extra postgres pytest tests/test_store.py tests/test_api.py tests/test_misc.py
+
+  container:
+    name: container image, end to end on recorded answers
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build
+        run: docker build -t countersign:ci .
+      # `countersign demo` replays the recorded answers of the test split, queues its
+      # first documents at start and takes the date of the recordings for today: the
+      # result does not depend on the day this job runs.
+      - name: Start the demo
+        run: |
+          docker run -d --name countersign -p 127.0.0.1:8000:8000 \
+            -e COUNTERSIGN_ALLOW_OPEN=true \
+            countersign:ci countersign demo --host 0.0.0.0 --port 8000 --limit 40
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8000/readyz; then exit 0; fi
+            sleep 2
+          done
+          exit 1
+      # An approval is committed first and its export written next: both are waited for.
+      - name: Forty sample documents are processed
+        run: |
+          for attempt in $(seq 1 60); do
+            curl -fsS http://127.0.0.1:8000/api/stats -o stats.json
+            if python3 -c "import json; s = json.load(open('stats.json')); raise SystemExit(not (s['processed'] == 40 and s['exports_pending'] == 0))"; then break; fi
+            sleep 2
+          done
+          cat stats.json
+          python3 - <<'EOF'
+          import json
+          stats = json.load(open("stats.json"))
+          assert stats["processed"] == 40, stats
+          assert stats["by_status"]["failed"] == 0, stats
+          assert stats["approved_automatically"] > 0, stats
+          assert stats["exports_pending"] == 0, stats
+          EOF
+      - name: The console and the metrics answer
+        run: |
+          curl -fsS http://127.0.0.1:8000/ | grep -q "<title>Countersign</title>"
+          curl -fsS http://127.0.0.1:8000/metrics | grep -q "countersign_documents_total"
+      - name: Without keys the image refuses to listen beyond the loopback
+        run: |
+          code=0
+          timeout 60 docker run --rm countersign:ci || code=$?
+          test "$code" = "2"
+      - name: Logs
+        if: always()
+        run: docker logs countersign 2>&1 | tail -100
+      # The same image through docker-compose.yml: its demo profile queues sixty
+      # documents. The `live` profile needs a model server and is not started here.
+      - name: The compose file starts the same demo
+        run: |
+          docker rm -f countersign
+          docker compose --profile demo up -d --build
+          finished=no
+          for attempt in $(seq 1 45); do
+            if curl -fsS http://127.0.0.1:8000/api/stats -o compose.json \
+              && python3 -c "import json; raise SystemExit(json.load(open('compose.json'))['processed'] < 60)"; then
+              finished=yes
+              break
+            fi
+            sleep 2
+          done
+          docker compose --profile demo logs --no-color | tail -40
+          docker compose --profile demo down -v
+          test "$finished" = "yes"

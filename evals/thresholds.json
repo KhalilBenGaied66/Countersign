@@ -1,0 +1,11 @@
+{
+  "dev-cascade": {"harmful_max": 0, "automation_min": 0.95, "stopped_min": 1.0, "critical_correct_min": 0.92},
+  "dev-small": {"harmful_max": 0, "stopped_min": 1.0},
+  "dev-large": {"harmful_max": 0, "stopped_min": 1.0},
+  "test-cascade": {"harmful_max": 0, "automation_min": 0.94, "stopped_min": 1.0, "critical_correct_min": 0.94},
+  "test-small": {"harmful_max": 0, "stopped_min": 1.0},
+  "test-large": {"harmful_max": 0, "stopped_min": 1.0},
+  "confirm-cascade": {"harmful_max": 0, "automation_min": 0.94, "stopped_min": 1.0, "critical_correct_min": 0.94},
+  "confirm-small": {"harmful_max": 0, "stopped_min": 1.0},
+  "confirm-large": {"harmful_max": 0, "stopped_min": 1.0}
+}
