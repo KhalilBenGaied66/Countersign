@@ -1,5 +1,7 @@
 # Countersign
 
+[![CI](https://github.com/KhalilBenGaied66/Countersign/actions/workflows/ci.yml/badge.svg)](https://github.com/KhalilBenGaied66/Countersign/actions/workflows/ci.yml)
+
 Supplier-invoice intake in which a local model reads the document, deterministic
 checks countersign what it read, and a person sees whatever could not be verified.
 
@@ -135,15 +137,15 @@ Other commands, configuration and what to watch in production are in
 | | State |
 |---|---|
 | The three splits, live on an RTX 5060 Ti with both models | **Run.** dev many times while developing; test once; confirm once. Every answer is recorded |
-| Reports recomputed from the recordings (`eval.gate`) | **Run.** 20 reports, identical to the committed ones and within their limits |
-| Test suite | **Run.** 788 tests on Python 3.11 and 3.13 (Windows), coverage 96.7 % |
+| Reports recomputed from the recordings (`eval.gate`) | **Run.** 20 reports, identical to the committed ones and within their limits, on Windows and on Linux (CI) |
+| Test suite | **Run.** 788 tests on Python 3.11 and 3.13, on Windows and on Linux (CI), coverage 96.7 % |
 | Lint, formatting, strict typing | **Run.** ruff and mypy, clean |
-| Storage, queue, API and command-line tests on PostgreSQL | **Run** against a local PostgreSQL 17.11: 137 tests pass |
+| Storage, queue, API and command-line tests on PostgreSQL | **Run** against PostgreSQL 17, locally and in CI: 137 tests pass |
 | Review console | **Run** in a browser on recorded answers: review, correct, approve with a comment, reject. Its script is also tested under Node |
 | Install without development dependencies, then `countersign demo` | **Run** from the built wheel, in a clean environment on Windows |
-| Docker image, `docker compose` | **Never built or run.** No Docker on the development machine. The installation it performs is the one tested above |
-| GitHub Actions workflow | **Never run.** The four jobs are written; the action versions they pin were checked to exist |
-| Anything on Linux | **Never run.** Windows only so far: the first CI run will be the first on Linux |
+| Docker image, `docker compose` | **Run** in CI only: the image is built, processes forty recorded documents and refuses to listen without keys, and the compose file starts its demo profile. The `live` profile, which needs a model server, has **never** run |
+| GitHub Actions workflow | **Run** on every push: tests on two Python versions, the evaluation gate, the database tests, the container. Its first run was the first on Linux, and passed |
+| Linux | **Run** in CI only (Ubuntu). The development machine runs Windows; nothing was run on macOS |
 | Trace export (OTLP/HTTP) | **Run** in the test suite: the exporter sends to a local receiver, which decodes what arrives. **Never** pointed at a real collector (Jaeger, Tempo) |
 | Real invoices, real users | **None.** See [docs/production.md](docs/production.md) |
 <!-- status:end -->
