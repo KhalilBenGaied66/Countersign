@@ -5,6 +5,10 @@
 Supplier-invoice intake in which a local model reads the document, deterministic
 checks countersign what it read, and a person sees whatever could not be verified.
 
+**Stack.** Python 3.11+, FastAPI, Pydantic, SQLAlchemy 2 with Alembic (SQLite or
+PostgreSQL), two open-weight Qwen models served by Ollama, pypdf and PDFium, Prometheus,
+OpenTelemetry, Docker, GitHub Actions.
+
 ![The review screen: the invoice as rendered by the server, the fields that were read, the checks that failed](docs/img/review.png)
 
 > **Context.** Orvane Industries is a fictional company. Its suppliers, invoices and
